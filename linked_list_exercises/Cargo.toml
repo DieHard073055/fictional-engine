@@ -1,0 +1,11 @@
+[workspace]
+members = [
+  "list_node",
+  "exercise1_linked_list",
+  "exercise2_linked_list",
+  "exercise3_linked_list",
+  "exercise4_linked_list",
+  "exercise5_linked_list",
+  "exercise6_linked_list",
+  "exercise7_linked_list",
+]
