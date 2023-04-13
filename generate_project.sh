@@ -19,7 +19,6 @@ for i in $(seq 1 7); do
     echo "    \"${exercise_dir}\"," >> Cargo.toml
 
     # Add the list_node dependency to each exercise's Cargo.toml
-    echo '[dependencies]' >> "${exercise_dir}/Cargo.toml"
     echo 'list_node = { path = "../list_node" }' >> "${exercise_dir}/Cargo.toml"
 done
 
